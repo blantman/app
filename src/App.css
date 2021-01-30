@@ -5,3 +5,7 @@
 button {
   background-color: plum;
 }
+
+.end {
+  text-decoration: line-through;
+}
