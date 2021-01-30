@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 function AddTask({ onCreate }) {
   const [value, setValue] = useState('')
 
-  function submitHandler() {
-    Event.preventDefualt()
+  function submitHandler(Event) {
+    Event.preventDefault()
 
     if (value.trim()) {
       onCreate(value)
