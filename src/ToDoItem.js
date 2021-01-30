@@ -26,7 +26,7 @@ function ToDoItem({ todo, index, onChange }) {
          checked={todo.completed}
           onChange={() => onChange(todo.id) } />
         <strong>{index + 1}</strong>
-        {todo.title}
+        {todo.titile}
       </span>
       <button>clicks</button>
 
